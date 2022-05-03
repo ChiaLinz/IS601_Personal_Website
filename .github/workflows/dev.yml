@@ -29,6 +29,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "lin-dev" #Must be unique in Heroku
-          heroku_email: "gcobs174370@gmail.com"
+          heroku_app_name: "chia-lin-601-project4-dev" #Must be unique in Heroku
+          heroku_email: "ch35@njit.edu"
           usedocker: true
