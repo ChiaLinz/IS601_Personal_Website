@@ -10,9 +10,10 @@
             <!-- Bootstrap CSS -->
             {{ bootstrap.load_css() }}
         {% endblock %}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <title>My Site - {% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+
     {% endblock %}
 </head>
 <body>
@@ -34,6 +35,8 @@
                     <div class="navbar-nav mr-auto">
                         {% if current_user.is_authenticated %}
                             {{ render_nav_item('auth.dashboard','Dashboard' ) }}
+                            {{ render_nav_item('songs.songs_browse','My Songs' ) }}
+                            {{ render_nav_item('songs.songs_upload','Upload Songs' ) }}
                             {% if current_user.is_admin %}
                                 {{ render_nav_item('auth.browse_users','User Management' ) }}
                             {% endif %}
@@ -78,9 +81,13 @@
     </div>
 </div>
 
+
+
+
 {% block scripts %}
     <!-- Optional JavaScript -->
     {{ bootstrap.load_js() }}
+
 {% endblock %}
 <footer class="text-center mt-5">
     Environment: {{ deployment_environment }} - Copyright: {{ year }} {{ format_price(100) }}
