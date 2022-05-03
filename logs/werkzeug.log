@@ -1,0 +1,36 @@
+2022-05-03 07:23:51,803 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:23:51] "GET / HTTP/1.1" 200 -
+2022-05-03 07:23:52,047 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:23:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-03 07:23:53,888 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:23:53] "GET /register HTTP/1.1" 200 -
+2022-05-03 07:24:03,700 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:24:03] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-05-03 07:24:03,717 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:24:03] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-03 07:24:03,726 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:24:03] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-03 07:24:03,783 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:24:03] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-03 07:24:03,834 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:24:03] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-03 07:25:24,124 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:25:24] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 07:25:24,661 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:25:24] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 07:25:25,315 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:25:25] "GET /register HTTP/1.1" 200 -
+2022-05-03 07:33:49,566 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:33:49] "GET / HTTP/1.1" 200 -
+2022-05-03 07:46:06,809 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:46:06] "GET / HTTP/1.1" 200 -
+2022-05-03 07:47:34,715 [INFO] werkzeug:  * Detected change in '/home/myuser/app/simple_pages/__init__.py', reloading
+2022-05-03 07:49:08,049 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:08] "GET / HTTP/1.1" 200 -
+2022-05-03 07:49:10,241 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:10] "GET /register HTTP/1.1" 200 -
+2022-05-03 07:49:17,547 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:17] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-05-03 07:49:17,563 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:17] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-03 07:49:17,572 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:17] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-03 07:49:17,644 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:17] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-03 07:49:17,682 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:17] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-03 07:49:38,270 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:38] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-03 07:49:38,282 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:38] "GET /login HTTP/1.1" 200 -
+2022-05-03 07:49:42,058 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 07:49:42,074 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:42] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 07:49:43,553 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:43] "GET /songs HTTP/1.1" 200 -
+2022-05-03 07:49:44,203 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:44] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-03 07:49:44,741 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:44] "GET /users HTTP/1.1" 200 -
+2022-05-03 07:49:44,774 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:44] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-05-03 07:49:45,009 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:45] "GET /users HTTP/1.1" 200 -
+2022-05-03 07:49:45,033 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:45] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-03 07:49:45,467 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:45] "GET /about HTTP/1.1" 200 -
+2022-05-03 07:49:45,948 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 07:49:45] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 07:54:26,661 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/conftest.py', reloading
+2022-05-03 15:43:13,846 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 15:43:13] "GET / HTTP/1.1" 200 -
+2022-05-03 15:43:14,040 [INFO] werkzeug: 172.26.0.1 - - [03/May/2022 15:43:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

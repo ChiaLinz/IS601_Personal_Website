@@ -1,18 +1,22 @@
 """This makes the test configuration setup"""
 # pylint: disable=redefined-outer-name
+import os
 
 import pytest
 from app import create_app
+from app.db import db
 
 
 @pytest.fixture()
 def application():
     """This makes the app"""
+    os.environ['FLASK_ENV'] = 'testing'
     application = create_app()
-    application.config.update({
-        "TESTING": True,
-    })
-    yield application
+
+    with application.app_context():
+        db.create_all()
+        yield application
+        db.session.remove()
 
 
 @pytest.fixture()

@@ -1,0 +1,10 @@
+2022-05-03 07:49:44,729 [INFO] app: Info level log
+2022-05-03 07:49:44,729 [WARNING] app: Warning level log
+2022-05-03 07:49:44,731 [INFO] app: Browse page loading
+2022-05-03 07:49:45,002 [INFO] app: Info level log
+2022-05-03 07:49:45,002 [WARNING] app: Warning level log
+2022-05-03 07:49:45,004 [INFO] app: Browse page loading
+2022-05-03 16:42:47,784 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 16:42:47,785 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 16:43:11,644 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-03 16:43:11,645 [INFO] flask_wtf.csrf: The CSRF token is missing.
