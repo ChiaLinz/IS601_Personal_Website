@@ -16,3 +16,11 @@
 2022-05-04 03:29:14,308 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-04 05:53:19,900 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-04 05:53:19,903 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 06:30:47,856 [INFO] flask_wtf.csrf: The CSRF token has expired.
+2022-05-04 06:30:53,002 [INFO] TheLog: 123@gmail.comlogged in
+2022-05-04 06:31:08,360 [INFO] app: Info level log
+2022-05-04 06:31:08,361 [WARNING] app: Warning level log
+2022-05-04 06:31:08,363 [INFO] app: Browse page loading
+2022-05-04 06:48:02,586 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 06:48:02,587 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 06:48:02,611 [INFO] myApp: <User '123@gmail.com'>
