@@ -583,3 +583,124 @@
 2022-05-04 15:55:00,534 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:55:00] "GET /transactions/upload.html HTTP/1.1" 200 -
 2022-05-04 15:55:03,385 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:55:03] "[32mPOST /transactions/upload.html HTTP/1.1[0m" 302 -
 2022-05-04 15:55:03,400 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:55:03] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 15:59:33,111 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 15:59:34,234 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:34] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 15:59:36,375 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:36] "GET /welcome HTTP/1.1" 200 -
+2022-05-04 15:59:36,794 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:36] "GET /users HTTP/1.1" 200 -
+2022-05-04 15:59:36,824 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:36] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-04 15:59:37,211 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:37] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 15:59:37,593 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:37] "GET /transactions/upload.html HTTP/1.1" 200 -
+2022-05-04 15:59:39,701 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:39] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 15:59:40,310 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:40] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 15:59:40,831 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:40] "GET /transactions/upload.html HTTP/1.1" 200 -
+2022-05-04 15:59:41,375 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:41] "GET /users HTTP/1.1" 200 -
+2022-05-04 15:59:41,400 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:41] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-04 15:59:42,057 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:42] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 15:59:43,797 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 15:59:43] "GET /transactions/upload.html HTTP/1.1" 200 -
+2022-05-04 16:00:04,081 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:01:07,863 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:07] "[33mPOST /transactions/upload.html HTTP/1.1[0m" 404 -
+2022-05-04 16:01:11,261 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:11] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:01:12,035 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:12] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:01:16,719 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:16] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:01:16,732 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:16] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-04 16:01:16,741 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:16] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-04 16:01:16,787 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:16] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-04 16:01:16,803 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:16] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:01:21,653 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:21] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:01:21,667 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:21] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:01:21,675 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:21] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:01:21,722 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:21] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:01:21,736 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:21] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:01:32,569 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:32] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:01:32,581 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:01:32,584 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:01:32,641 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:01:32,655 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:01:53,651 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:53] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:01:53,664 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:53] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:01:54,839 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:54] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:01:55,183 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:55] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:01:55,548 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:55] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:01:55,933 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:55] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:01:56,432 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:56] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:01:57,077 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:01:57] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:05:39,005 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:05:43,568 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:43] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+2022-05-04 16:05:43,580 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:43] "GET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-04 16:05:43,580 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:43] "GET /transactions?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-04 16:05:43,654 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:43] "GET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-04 16:05:43,694 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:43] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:05:44,044 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:05:52,199 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:52] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+2022-05-04 16:05:52,210 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:52] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:05:52,211 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:52] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:05:52,268 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:52] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:05:52,283 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:05:52] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:05:52,416 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:06:11,463 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:11] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+2022-05-04 16:06:11,476 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:06:11,476 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:06:11,536 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:11,550 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:20,004 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:20] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+2022-05-04 16:06:20,016 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:20] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:06:20,016 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:20] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:06:20,075 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:20] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:20,086 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:06:38,645 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:38] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:06:40,026 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:40] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:06:40,464 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:40] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:06:42,828 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:42] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:06:42,843 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:42] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:06:43,927 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:43] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:06:46,397 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:46] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:06:46,416 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:46] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:06:46,424 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:46] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:06:46,474 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:46] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:46,488 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:46] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:50,841 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:50] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:06:50,859 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:50] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:06:50,868 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:50] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:06:50,918 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:50] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:50,931 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:50] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:52,215 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:52] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:06:55,499 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:55] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:06:55,514 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:55] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:06:55,523 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:55] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:06:55,571 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:55] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:55,585 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:55] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-04 16:06:59,894 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:59] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:06:59,908 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:06:59] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:07:20,609 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:07:25,444 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:07:25] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:07:26,078 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:07:26] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:07:28,544 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:07:28] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:07:28,559 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:07:28] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:08:11,413 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:10:43,258 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:43] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:10:43,666 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:43] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:10:46,286 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:46] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:10:46,303 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:46] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:10:47,390 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:47] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:10:51,017 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:51] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:10:53,379 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:53] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:10:54,159 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:10:54] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:12:06,621 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:12:06] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:12:09,303 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:12:09] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:12:09,320 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:12:09] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:13:25,016 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:25] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:13:30,857 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:30] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-04 16:13:30,870 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:30] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-04 16:13:30,879 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:30] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-04 16:13:37,019 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:37] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:13:37,592 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:37] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:13:40,233 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:40] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:13:40,252 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:13:40] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:19:22,823 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:19:23,350 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:19:23] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:19:23,840 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:19:23] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-04 16:19:26,723 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:19:26] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-04 16:19:26,761 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:19:26] "GET /transactions HTTP/1.1" 200 -
+2022-05-04 16:20:14,556 [INFO] werkzeug:  * Detected change in '/home/myuser/app/transactions/__init__.py', reloading
+2022-05-04 16:21:06,568 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 16:21:06] "GET /dashboard HTTP/1.1" 200 -
+2022-05-04 16:22:09,008 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
