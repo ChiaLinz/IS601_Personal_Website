@@ -14,6 +14,7 @@ from werkzeug.utils import secure_filename, redirect
 transactions = Blueprint('transactions', __name__,
                         template_folder='templates')
 
+
 @transactions.route('/transactions', methods=['GET'], defaults={"page": 1})
 @transactions.route('/transactions/<int:page>', methods=['GET'])
 def transactions_browse(page):
@@ -25,6 +26,7 @@ def transactions_browse(page):
         return render_template('browse_transactions.html',data=data,pagination=pagination)
     except TemplateNotFound:
         abort(404)
+
 
 @transactions.route('/transactions/upload', methods=['POST', 'GET'])
 @login_required
@@ -41,12 +43,13 @@ def transactions_upload():
         form.file.data.save(filepath)
 
         #user = current_user
-        list_of_transactions = []
         balance = current_user.balance
+        list_of_transactions = []
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
                 list_of_transactions.append(Transactions(row["AMOUNT"], row["TYPE"]))
+                balance += float(row['AMOUNT'])
 
         current_user.transactions = list_of_transactions
         current_user.balance = balance
