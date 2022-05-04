@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
-
 from app.auth.decorators import admin_required
 from flask_login import login_user, login_required, logout_user, current_user
 from sqlalchemy.orm import load_only
@@ -7,7 +6,7 @@ from werkzeug.security import generate_password_hash
 from app.auth.forms import login_form, register_form, profile_form, security_form, user_edit_form
 from app.db import db
 from app.db.models import User
-
+import logging
 auth = Blueprint('auth', __name__, template_folder='templates')
 from flask import current_app
 
@@ -17,6 +16,7 @@ from flask import current_app
 @auth.route('/login', methods=['POST', 'GET'])
 def login():
     form = login_form()
+    log = logging.getLogger("TheLog")
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
     if form.validate_on_submit():
@@ -30,6 +30,7 @@ def login():
             db.session.commit()
             login_user(user)
             flash("Welcome", 'success')
+            log.info(user.email + "logged in")
             return redirect(url_for('auth.dashboard'))
     return render_template('login.html', form=form)
 
@@ -39,6 +40,7 @@ def register():
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
     form = register_form()
+    log = logging.getLogger("TheLog")
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user is None:
@@ -50,6 +52,7 @@ def register():
                 db.session.add(user)
                 db.session.commit()
             flash('Congratulations, you are now a registered user!', "success")
+            log.info("Registered_new_user_name: " + user.email)
             return redirect(url_for('auth.login'), 301)
         else:
             flash('Already Registered')
@@ -71,6 +74,8 @@ def logout():
     user.authenticated = False
     db.session.add(user)
     db.session.commit()
+    log = logging.getLogger("TheLog")
+    log.info(user.email + "logged out")
     logout_user()
     return redirect(url_for('auth.login'))
 
@@ -174,5 +179,4 @@ def edit_account():
         flash('You Successfully Updated your Password or Email', 'success')
         return redirect(url_for('auth.dashboard'))
     return render_template('manage_account.html', form=form)
-
 
