@@ -1,27 +1,23 @@
 from datetime import datetime
 
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, backref
 from werkzeug.security import check_password_hash, generate_password_hash
 from app.db import db
 from flask_login import UserMixin
 
 
-class Song(db.Model):
-    __tablename__ = 'songs'
+
+class Transactions(db.Model):
+    __tablename__ = 'transaction'
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(300), nullable=True, unique=False)
-    artist = db.Column(db.String(300), nullable=True, unique=False)
-    year = db.Column(db.String(50), nullable=True, unique=False)
-    genre = db.Column(db.String(300), nullable=True, unique=False)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    user = relationship("User", back_populates="songs", uselist=False)
+    amount = db.Column(db.Float, nullable=False, unique=False)
+    type = db.Column(db.String(50), nullable=False, unique=False)
 
-    def __init__(self, title, artist, year, genre):
-        self.title = title
-        self.artist = artist
-        self.year = year
-        self.genre = genre
+    user = relationship("User", secondary="transaction_user")
 
+    def __init__(self, amount, type):
+        self.amount = float(amount)
+        self.type = type
 
 class User(UserMixin, db.Model):
     __tablename__ = 'users'
@@ -32,9 +28,18 @@ class User(UserMixin, db.Model):
     about = db.Column(db.String(300), nullable=True, unique=False)
     authenticated = db.Column(db.Boolean, default=False)
     registered_on = db.Column('registered_on', db.DateTime)
-    active = db.Column('is_active', db.Boolean(), nullable=False, server_default='1')
+    is_active = db.Column('is_active', db.Boolean(), nullable=False, server_default='1')
     is_admin = db.Column('is_admin', db.Boolean(), nullable=False, server_default='0')
-    songs = db.relationship("Song", back_populates="user", cascade="all, delete")
+    transaction = db.relationship("Transactions", secondary="transaction_user", backref="users")
+    balance = db.Column(db.Float, default=0.0, unique=False, nullable=False)
+
+class transaction_user(db.Model):
+    __tablename__ = 'transaction_user'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    transaction_id = db.Column(db.Integer, db.ForeignKey('transaction.id'))
+    user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
+    transaction = relationship(Transactions, backref=backref("transaction_user", cascade="all, delete-orphan"))
 
     # `roles` and `groups` are reserved words that *must* be defined
     # on the `User` model to use group- or role-based authorization.
@@ -64,3 +69,6 @@ class User(UserMixin, db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.email
+
+    def get_balance(self):
+        return self.balance

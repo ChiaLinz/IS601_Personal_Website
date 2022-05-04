@@ -5,15 +5,17 @@ from logging.config import dictConfig
 import flask
 from flask import request, current_app
 
-#from app.logging_config.log_formatters import RequestFormatter
+from app.logging_config.log_formatters import RequestFormatter
 from app import config
 
 log_con = flask.Blueprint('log_con', __name__)
 
 
-#@log_con.before_app_request
-#def before_request_logging():
-
+@log_con.before_app_request
+def before_request_logging():
+    current_app.logger.info("Before Request")
+    log = logging.getLogger("TheLog")
+    log.info("The Log Info")
 
 
 @log_con.after_app_request
@@ -24,7 +26,11 @@ def after_request_logging(response):
         return response
     elif request.path.startswith('/bootstrap'):
         return response
+
+    log = logging.getLogger("request")
+    log.info("Get the route ")
     return response
+
 
 @log_con.before_app_first_request
 def setup_logs():
@@ -118,16 +124,22 @@ LOGGING_CONFIG = {
             'level': 'INFO',
             'propagate': False
         },
-        'myApp': {  # if __name__ == '__main__'
+        'TheLog': {  # if __name__ == '__main__'
             'handlers': ['file.handler.myapp'],
             'level': 'DEBUG',
             'propagate': False
         },
-        'myerrors': {  # if __name__ == '__main__'
+        'TheError': {  # if __name__ == '__main__'
             'handlers': ['file.handler.errors'],
             'level': 'DEBUG',
             'propagate': False
         },
+        'request': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.request'],
+            'level': 'INFO',
+            'propagate': False
+        },
+
 
     }
 }
