@@ -19,14 +19,14 @@ transactions = Blueprint('transactions', __name__,
 def transactions_browse(page):
     page = page
     per_page = 1000
-    pagination = Transactions.query.paginate(page, per_page, error_out=False)
+    pagination = Transactions.query.filter(Transactions.user.any(id=current_user.id)).paginate(page, per_page, error_out=False)
     data = pagination.items
     try:
         return render_template('browse_transactions.html',data=data,pagination=pagination)
     except TemplateNotFound:
         abort(404)
 
-@transactions.route('/transactions/upload.html', methods=['POST', 'GET'])
+@transactions.route('/transactions/upload', methods=['POST', 'GET'])
 @login_required
 def transactions_upload():
     form = csv_upload()
@@ -42,12 +42,14 @@ def transactions_upload():
 
         #user = current_user
         list_of_transactions = []
+        balance = current_user.balance
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                list_of_transactions.append(Transactions(row['A'], row['B']))
+                list_of_transactions.append(Transactions(row["AMOUNT"], row["TYPE"]))
 
         current_user.transactions = list_of_transactions
+        current_user.balance = balance
         db.session.commit()
 
         return redirect(url_for('transactions.transactions_browse'))
