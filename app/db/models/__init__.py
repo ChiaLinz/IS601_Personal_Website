@@ -31,7 +31,7 @@ class User(UserMixin, db.Model):
     is_active = db.Column('is_active', db.Boolean(), nullable=False, server_default='1')
     is_admin = db.Column('is_admin', db.Boolean(), nullable=False, server_default='0')
     transaction = db.relationship("Transactions", secondary="transaction_user", backref="users")
-    balance = db.Column(db.Float, default=0.0, unique=False)
+    balance = db.Column(db.Float, default=0.0, unique=False, nullable=False)
 
 class transaction_user(db.Model):
     __tablename__ = 'transaction_user'
@@ -69,3 +69,6 @@ class transaction_user(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.email
+
+    def get_balance(self):
+        return self.balance

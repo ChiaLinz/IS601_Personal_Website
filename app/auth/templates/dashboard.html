@@ -4,5 +4,6 @@
     <div id="row">
     <h2>Dashboard</h2>
     <p>Welcome: {{ current_user.email }}</p>
+    <p>Balance: {{ format_price(current_user.balance) }}</p>
     </div>
 {% endblock %}

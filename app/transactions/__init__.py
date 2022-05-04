@@ -26,7 +26,7 @@ def transactions_browse(page):
     except TemplateNotFound:
         abort(404)
 
-@transactions.route('/transactions/upload', methods=['POST', 'GET'])
+@transactions.route('/transactions/upload.html', methods=['POST', 'GET'])
 @login_required
 def transactions_upload():
     form = csv_upload()
@@ -40,17 +40,17 @@ def transactions_upload():
             os.mkdir(current_app.config['UPLOAD_FOLDER'])
         form.file.data.save(filepath)
 
-        user = current_user
-        list_of_songs = []
+        #user = current_user
+        list_of_transactions = []
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                list_of_songs.append(Transactions(row['AMOUNT'],row['TYPE']))
+                list_of_transactions.append(Transactions(row['A'], row['B']))
 
-        current_user.transactions = list_of_songs
+        current_user.transactions = list_of_transactions
         db.session.commit()
 
-        return redirect(url_for('transactions.songs_transactions'))
+        return redirect(url_for('transactions.transactions_browse'))
 
     try:
         return render_template('upload.html', form=form)

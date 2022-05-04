@@ -48,6 +48,7 @@ def create_app():
     app.register_blueprint(error_handlers)
     app.register_blueprint(transactions)
     app.context_processor(utility_text_processors)
+
     # add command function to cli commands
     app.cli.add_command(create_database)
     app.cli.add_command(create_log_folder)
