@@ -328,3 +328,164 @@
 2022-05-04 16:22:10,111 [INFO] app: Before Request
 2022-05-04 16:22:10,203 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-04 16:22:10,204 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 16:24:40,435 [INFO] app: Before Request
+2022-05-04 16:34:12,857 [INFO] app: Before Request
+2022-05-04 16:34:13,716 [INFO] app: Before Request
+2022-05-04 16:34:15,593 [INFO] app: Before Request
+2022-05-04 16:34:17,581 [INFO] app: Before Request
+2022-05-04 16:34:20,480 [INFO] app: Before Request
+2022-05-04 16:36:03,216 [INFO] app: Before Request
+2022-05-04 16:36:06,238 [INFO] app: Before Request
+2022-05-04 16:36:07,021 [INFO] app: Before Request
+2022-05-04 16:36:07,573 [INFO] app: Before Request
+2022-05-04 16:36:08,034 [INFO] app: Before Request
+2022-05-04 16:36:08,930 [INFO] app: Before Request
+2022-05-04 16:36:08,935 [INFO] app: Info level log
+2022-05-04 16:36:08,935 [WARNING] app: Warning level log
+2022-05-04 16:36:08,937 [INFO] app: Browse page loading
+2022-05-04 16:36:08,970 [INFO] app: Before Request
+2022-05-04 16:36:09,524 [INFO] app: Before Request
+2022-05-04 16:36:10,128 [INFO] app: Before Request
+2022-05-04 16:36:10,428 [INFO] app: Before Request
+2022-05-04 16:36:10,888 [INFO] app: Before Request
+2022-05-04 16:36:10,893 [INFO] app: Info level log
+2022-05-04 16:36:10,893 [WARNING] app: Warning level log
+2022-05-04 16:36:10,895 [INFO] app: Browse page loading
+2022-05-04 16:36:10,926 [INFO] app: Before Request
+2022-05-04 16:36:11,607 [INFO] app: Before Request
+2022-05-04 16:36:12,107 [INFO] app: Before Request
+2022-05-04 16:36:12,542 [INFO] app: Before Request
+2022-05-04 16:36:13,435 [INFO] app: Before Request
+2022-05-04 16:36:16,306 [INFO] app: Before Request
+2022-05-04 17:12:58,733 [INFO] app: Before Request
+2022-05-04 17:12:59,430 [INFO] app: Before Request
+2022-05-04 17:13:37,666 [INFO] app: Before Request
+2022-05-04 17:13:42,775 [INFO] app: Before Request
+2022-05-04 17:13:42,781 [INFO] myApp: csv file uploaded
+2022-05-04 17:13:42,800 [INFO] app: Before Request
+2022-05-04 17:13:43,616 [INFO] app: Before Request
+2022-05-04 17:13:43,922 [INFO] app: Before Request
+2022-05-04 17:13:44,838 [INFO] app: Before Request
+2022-05-04 17:13:45,731 [INFO] app: Before Request
+2022-05-04 17:13:47,069 [INFO] app: Before Request
+2022-05-04 17:50:11,072 [INFO] app: Before Request
+2022-05-04 17:50:13,832 [INFO] app: Before Request
+2022-05-04 17:50:15,118 [INFO] app: Before Request
+2022-05-04 17:50:34,782 [INFO] app: Before Request
+2022-05-04 17:50:41,751 [INFO] app: Before Request
+2022-05-04 17:50:41,757 [INFO] myApp: csv file uploaded
+2022-05-04 17:50:53,212 [INFO] app: Before Request
+2022-05-04 17:50:53,219 [INFO] myApp: csv file uploaded
+2022-05-04 17:50:53,242 [INFO] app: Before Request
+2022-05-04 17:50:55,691 [INFO] app: Before Request
+2022-05-04 17:55:17,704 [INFO] app: Before Request
+2022-05-04 18:03:03,293 [INFO] app: Before Request
+2022-05-04 18:03:05,126 [INFO] app: Before Request
+2022-05-04 18:03:06,212 [INFO] app: Before Request
+2022-05-04 18:03:07,223 [INFO] app: Before Request
+2022-05-04 18:03:08,378 [INFO] app: Before Request
+2022-05-04 18:03:09,051 [INFO] app: Before Request
+2022-05-04 18:03:09,968 [INFO] app: Before Request
+2022-05-04 18:03:11,191 [INFO] app: Before Request
+2022-05-04 18:03:12,162 [INFO] app: Before Request
+2022-05-04 18:03:23,834 [INFO] app: Before Request
+2022-05-04 18:03:25,977 [INFO] app: Before Request
+2022-05-04 18:03:27,222 [INFO] app: Before Request
+2022-05-04 18:03:28,061 [INFO] app: Before Request
+2022-05-04 18:03:29,110 [INFO] app: Before Request
+2022-05-04 18:03:30,846 [INFO] app: Before Request
+2022-05-04 18:03:30,851 [INFO] app: Info level log
+2022-05-04 18:03:30,851 [WARNING] app: Warning level log
+2022-05-04 18:03:30,853 [INFO] app: Browse page loading
+2022-05-04 18:03:30,890 [INFO] app: Before Request
+2022-05-04 18:03:31,714 [INFO] app: Before Request
+2022-05-04 18:03:32,571 [INFO] app: Before Request
+2022-05-04 18:03:33,465 [INFO] app: Before Request
+2022-05-04 18:04:38,006 [INFO] app: Before Request
+2022-05-04 18:04:45,490 [INFO] app: Before Request
+2022-05-04 18:04:46,827 [INFO] app: Before Request
+2022-05-04 18:04:48,383 [INFO] app: Before Request
+2022-05-04 18:04:49,055 [INFO] app: Before Request
+2022-05-04 18:04:49,698 [INFO] app: Before Request
+2022-05-04 18:09:01,627 [INFO] app: Before Request
+2022-05-04 18:09:02,379 [INFO] app: Before Request
+2022-05-04 18:09:10,551 [INFO] app: Before Request
+2022-05-04 18:09:12,544 [INFO] app: Before Request
+2022-05-04 18:09:13,389 [INFO] app: Before Request
+2022-05-04 18:09:42,081 [INFO] app: Before Request
+2022-05-04 18:09:42,088 [INFO] myApp: csv file uploaded
+2022-05-04 18:10:07,562 [INFO] app: Before Request
+2022-05-04 18:10:07,567 [INFO] myApp: csv file uploaded
+2022-05-04 18:14:05,903 [INFO] app: Before Request
+2022-05-04 18:14:08,004 [INFO] app: Before Request
+2022-05-04 18:14:20,682 [INFO] app: Before Request
+2022-05-04 18:24:59,232 [INFO] app: Before Request
+2022-05-04 18:35:30,591 [INFO] app: Before Request
+2022-05-04 18:35:30,611 [INFO] app: Before Request
+2022-05-04 18:35:42,204 [INFO] app: Before Request
+2022-05-04 18:36:11,217 [INFO] app: Before Request
+2022-05-04 18:36:13,718 [INFO] app: Before Request
+2022-05-04 18:36:29,613 [INFO] app: Before Request
+2022-05-04 18:36:29,705 [INFO] app: Before Request
+2022-05-04 18:36:29,717 [INFO] app: Before Request
+2022-05-04 18:36:31,817 [INFO] app: Before Request
+2022-05-04 18:36:32,619 [INFO] app: Before Request
+2022-05-04 18:36:34,373 [INFO] app: Before Request
+2022-05-04 18:36:41,122 [INFO] app: Before Request
+2022-05-04 18:36:41,128 [INFO] myApp: csv file uploaded
+2022-05-04 18:36:52,685 [INFO] app: Before Request
+2022-05-04 18:36:52,690 [INFO] myApp: csv file uploaded
+2022-05-04 18:36:52,714 [INFO] app: Before Request
+2022-05-04 18:36:54,789 [INFO] app: Before Request
+2022-05-04 18:36:55,804 [INFO] app: Before Request
+2022-05-04 18:37:00,977 [INFO] app: Before Request
+2022-05-04 18:37:02,154 [INFO] app: Before Request
+2022-05-04 18:40:47,061 [INFO] app: Before Request
+2022-05-04 18:46:43,398 [INFO] app: Before Request
+2022-05-04 18:46:43,497 [INFO] app: Before Request
+2022-05-04 18:46:43,498 [INFO] app: Before Request
+2022-05-04 18:46:43,575 [INFO] app: Before Request
+2022-05-04 18:46:43,658 [INFO] app: Before Request
+2022-05-04 18:46:43,752 [INFO] app: Before Request
+2022-05-04 18:46:43,845 [INFO] app: Before Request
+2022-05-04 18:46:43,937 [INFO] app: Before Request
+2022-05-04 18:46:44,029 [INFO] app: Before Request
+2022-05-04 18:46:44,124 [INFO] app: Before Request
+2022-05-04 18:46:44,230 [INFO] app: Before Request
+2022-05-04 18:46:44,327 [INFO] app: Before Request
+2022-05-04 18:46:44,424 [INFO] app: Before Request
+2022-05-04 18:46:44,526 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 18:46:44,528 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 18:46:48,412 [INFO] app: Before Request
+2022-05-04 18:46:48,510 [INFO] app: Before Request
+2022-05-04 18:46:48,511 [INFO] app: Before Request
+2022-05-04 18:46:48,591 [INFO] app: Before Request
+2022-05-04 18:46:48,689 [INFO] app: Before Request
+2022-05-04 18:46:48,785 [INFO] app: Before Request
+2022-05-04 18:46:48,880 [INFO] app: Before Request
+2022-05-04 18:46:48,975 [INFO] app: Before Request
+2022-05-04 18:46:49,071 [INFO] app: Before Request
+2022-05-04 18:46:49,165 [INFO] app: Before Request
+2022-05-04 18:46:49,259 [INFO] app: Before Request
+2022-05-04 18:46:49,354 [INFO] app: Before Request
+2022-05-04 18:46:49,450 [INFO] app: Before Request
+2022-05-04 18:46:49,549 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 18:46:49,550 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 18:47:13,038 [INFO] app: Before Request
+2022-05-04 18:47:13,134 [INFO] app: Before Request
+2022-05-04 18:47:13,136 [INFO] app: Before Request
+2022-05-04 18:47:13,214 [INFO] app: Before Request
+2022-05-04 18:47:13,308 [INFO] app: Before Request
+2022-05-04 18:47:13,405 [INFO] app: Before Request
+2022-05-04 18:47:13,504 [INFO] app: Before Request
+2022-05-04 18:47:13,601 [INFO] app: Before Request
+2022-05-04 18:47:13,696 [INFO] app: Before Request
+2022-05-04 18:47:13,791 [INFO] app: Before Request
+2022-05-04 18:47:13,887 [INFO] app: Before Request
+2022-05-04 18:47:13,981 [INFO] app: Before Request
+2022-05-04 18:47:14,075 [INFO] app: Before Request
+2022-05-04 18:47:14,168 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 18:47:14,169 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-04 19:38:42,451 [INFO] app: Before Request
+2022-05-04 19:38:43,022 [INFO] app: Before Request
+2022-05-04 19:38:43,372 [INFO] app: Before Request

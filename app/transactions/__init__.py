@@ -7,7 +7,7 @@ from flask_login import current_user, login_required
 from jinja2 import TemplateNotFound
 
 from app.db import db
-from app.db.models import Transactions
+from app.db.models import Transaction
 from app.transactions.forms import csv_upload
 from werkzeug.utils import secure_filename, redirect
 
@@ -20,7 +20,7 @@ transactions = Blueprint('transactions', __name__,
 def transactions_browse(page):
     page = page
     per_page = 1000
-    pagination = Transactions.query.filter(Transactions.user.any(id=current_user.id)).paginate(page, per_page, error_out=False)
+    pagination = Transaction.query.paginate(page, per_page, error_out=False)
     data = pagination.items
     try:
         return render_template('browse_transactions.html',data=data,pagination=pagination)
@@ -33,11 +33,12 @@ def transactions_browse(page):
 def transactions_upload():
     form = csv_upload()
     if form.validate_on_submit():
-        log = logging.getLogger("TheLog")
-        log.info('csv file uploaded')
+        log = logging.getLogger("myApp")
+
 
         filename = secure_filename(form.file.data.filename)
         filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
+        log.info(filename + ' file uploaded')
         if not os.path.exists(current_app.config['UPLOAD_FOLDER']):
             os.mkdir(current_app.config['UPLOAD_FOLDER'])
         form.file.data.save(filepath)
@@ -48,7 +49,7 @@ def transactions_upload():
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                list_of_transactions.append(Transactions(row["AMOUNT"], row["TYPE"]))
+                list_of_transactions.append(Transaction(row["AMOUNT"], row["TYPE"]))
                 balance += float(row['AMOUNT'])
 
         current_user.transactions = list_of_transactions

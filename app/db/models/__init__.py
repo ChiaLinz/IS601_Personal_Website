@@ -7,7 +7,7 @@ from flask_login import UserMixin
 
 
 
-class Transactions(db.Model):
+class Transaction(db.Model):
     __tablename__ = 'transaction'
     id = db.Column(db.Integer, primary_key=True)
     amount = db.Column(db.Float, nullable=False, unique=False)
@@ -30,7 +30,7 @@ class User(UserMixin, db.Model):
     registered_on = db.Column('registered_on', db.DateTime)
     is_active = db.Column('is_active', db.Boolean(), nullable=False, server_default='1')
     is_admin = db.Column('is_admin', db.Boolean(), nullable=False, server_default='0')
-    transaction = db.relationship("Transactions", secondary="transaction_user", backref="users")
+    transactions = db.relationship("Transaction", secondary="transaction_user", backref="users")
     balance = db.Column(db.Float, default=0.0, unique=False, nullable=False)
 
 class transaction_user(db.Model):
@@ -39,7 +39,7 @@ class transaction_user(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     transaction_id = db.Column(db.Integer, db.ForeignKey('transaction.id'))
     user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
-    transaction = relationship(Transactions, backref=backref("transaction_user", cascade="all, delete-orphan"))
+    transaction = relationship(Transaction, backref=backref("transaction_user", cascade="all, delete-orphan"))
 
     # `roles` and `groups` are reserved words that *must* be defined
     # on the `User` model to use group- or role-based authorization.

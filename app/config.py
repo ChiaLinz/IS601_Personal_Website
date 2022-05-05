@@ -4,7 +4,7 @@ import os
 class Config(object):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     DEBUG = False
-    TESTING = False
+    TESTING =   False
     SECRET_KEY = 'This is an INSECURE secret!! DO NOT use this in production!!'
     SESSION_COOKIE_SECURE = True
     BOOTSTRAP_BOOTSWATCH_THEME = 'Simplex'
