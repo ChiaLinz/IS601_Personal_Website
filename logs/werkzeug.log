@@ -838,3 +838,12 @@
 2022-05-04 19:38:42,548 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 19:38:42] "GET /transactions/upload HTTP/1.1" 200 -
 2022-05-04 19:38:43,074 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 19:38:43] "GET /transactions HTTP/1.1" 200 -
 2022-05-04 19:38:43,386 [INFO] werkzeug: 172.31.0.1 - - [04/May/2022 19:38:43] "GET /dashboard HTTP/1.1" 200 -
+2022-05-05 05:35:05,359 [INFO] werkzeug: 172.31.0.1 - - [05/May/2022 05:35:05] "GET / HTTP/1.1" 200 -
+2022-05-06 03:50:53,611 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-05-06 03:54:43,802 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:43] "GET / HTTP/1.1" 200 -
+2022-05-06 03:54:43,936 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/database_test.py', reloading
+2022-05-06 03:54:46,306 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:46] "GET /profile HTTP/1.1" 200 -
+2022-05-06 03:54:47,825 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:47] "GET /about HTTP/1.1" 200 -
+2022-05-06 03:54:48,202 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:48] "GET /users HTTP/1.1" 200 -
+2022-05-06 03:54:48,232 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:48] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-05-06 04:02:19,767 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/database_test.py', reloading
