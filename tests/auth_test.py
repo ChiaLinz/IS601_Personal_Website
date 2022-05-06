@@ -15,3 +15,20 @@ def test_auth_pages(client):
     assert response.status_code == 200
     response = client.get("/login")
     assert response.status_code == 200
+
+def test_profile_page(client):
+    response = client.get("/profile")
+    assert response.status_code == 200
+
+def test_account_page(client):
+    response = client.get("/account")
+    assert response.status_code == 200
+
+def test_register_page(client):
+    response = client.get("/register")
+    assert response.status_code == 200
+
+def test_login_page(client):
+    response = client.get("/login")
+    assert response.status_code == 200
+
