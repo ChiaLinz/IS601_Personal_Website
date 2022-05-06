@@ -847,3 +847,31 @@
 2022-05-06 03:54:48,202 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:48] "GET /users HTTP/1.1" 200 -
 2022-05-06 03:54:48,232 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 03:54:48] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
 2022-05-06 04:02:19,767 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/database_test.py', reloading
+2022-05-06 04:38:04,953 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 04:38:04] "GET / HTTP/1.1" 200 -
+2022-05-06 04:38:07,000 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 04:38:07] "GET /dashboard HTTP/1.1" 200 -
+2022-05-06 04:38:09,201 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 04:38:09] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 04:38:10,276 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 04:38:10] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 04:38:11,091 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 04:38:11] "GET /dashboard HTTP/1.1" 200 -
+2022-05-06 15:32:10,657 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:10] "GET / HTTP/1.1" 200 -
+2022-05-06 15:32:13,096 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:13] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 15:32:19,720 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:19] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-06 15:32:19,736 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:19] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-06 15:32:19,743 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:19] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-06 15:32:19,807 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:19] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-06 15:32:19,823 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:19] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-06 15:32:25,200 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:25] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-06 15:32:25,230 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:25] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-06 15:32:25,239 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:25] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-06 15:32:25,285 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:25] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-06 15:32:25,304 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:25] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-06 15:32:27,171 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:27] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:32:27,572 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:27] "GET /dashboard HTTP/1.1" 200 -
+2022-05-06 15:32:28,396 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:28] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:32:29,243 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:29] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 15:32:33,321 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:33] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-06 15:32:33,335 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:32:33] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:33:35,178 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:33:35] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 15:34:04,995 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:34:04] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-06 15:34:05,011 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:34:05] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:34:40,038 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:34:40] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 15:36:09,014 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/upload_test.py', reloading
