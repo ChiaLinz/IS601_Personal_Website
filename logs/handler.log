@@ -1290,3 +1290,288 @@
 2022-05-06 15:43:45,739 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-06 15:43:45,741 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-06 15:43:45,745 [INFO] app: Before Request
+2022-05-06 15:56:25,322 [INFO] app: Before Request
+2022-05-06 15:56:25,424 [INFO] app: Before Request
+2022-05-06 15:56:25,426 [INFO] app: Before Request
+2022-05-06 15:56:25,504 [INFO] app: Before Request
+2022-05-06 15:56:25,530 [INFO] app: Before Request
+2022-05-06 15:56:25,632 [INFO] app: Before Request
+2022-05-06 15:56:25,729 [INFO] app: Before Request
+2022-05-06 15:56:25,825 [INFO] app: Before Request
+2022-05-06 15:56:25,920 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:56:25,921 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:56:25,926 [INFO] app: Before Request
+2022-05-06 15:56:26,182 [INFO] app: Before Request
+2022-05-06 15:56:26,281 [INFO] app: Before Request
+2022-05-06 15:56:26,377 [INFO] app: Before Request
+2022-05-06 15:56:26,507 [INFO] app: Before Request
+2022-05-06 15:56:26,601 [INFO] app: Before Request
+2022-05-06 15:56:26,697 [INFO] app: Before Request
+2022-05-06 15:56:26,789 [INFO] app: Before Request
+2022-05-06 15:56:26,882 [INFO] app: Before Request
+2022-05-06 15:56:26,978 [INFO] app: Before Request
+2022-05-06 15:56:27,073 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:56:27,074 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:56:27,079 [INFO] app: Before Request
+2022-05-06 15:58:38,505 [INFO] app: Before Request
+2022-05-06 15:58:39,077 [INFO] app: Before Request
+2022-05-06 15:58:39,592 [INFO] app: Before Request
+2022-05-06 15:58:40,125 [INFO] app: Before Request
+2022-05-06 15:58:44,885 [INFO] app: Before Request
+2022-05-06 15:58:44,890 [INFO] myApp: t4.csv file uploaded
+2022-05-06 15:58:44,914 [INFO] app: Before Request
+2022-05-06 15:58:54,242 [INFO] app: Before Request
+2022-05-06 15:58:54,335 [INFO] app: Before Request
+2022-05-06 15:58:54,337 [INFO] app: Before Request
+2022-05-06 15:58:54,413 [INFO] app: Before Request
+2022-05-06 15:58:54,436 [INFO] app: Before Request
+2022-05-06 15:58:54,534 [INFO] app: Before Request
+2022-05-06 15:58:54,627 [INFO] app: Before Request
+2022-05-06 15:58:54,718 [INFO] app: Before Request
+2022-05-06 15:58:54,810 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:58:54,811 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:58:54,816 [INFO] app: Before Request
+2022-05-06 15:58:55,058 [INFO] app: Before Request
+2022-05-06 15:58:55,156 [INFO] app: Before Request
+2022-05-06 15:58:55,250 [INFO] app: Before Request
+2022-05-06 15:58:55,379 [INFO] app: Before Request
+2022-05-06 15:58:55,469 [INFO] app: Before Request
+2022-05-06 15:58:55,562 [INFO] app: Before Request
+2022-05-06 15:58:55,653 [INFO] app: Before Request
+2022-05-06 15:58:55,744 [INFO] app: Before Request
+2022-05-06 15:58:55,836 [INFO] app: Before Request
+2022-05-06 15:58:55,926 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:58:55,927 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:58:55,932 [INFO] app: Before Request
+2022-05-06 15:59:21,195 [INFO] app: Before Request
+2022-05-06 15:59:21,296 [INFO] app: Before Request
+2022-05-06 15:59:21,298 [INFO] app: Before Request
+2022-05-06 15:59:21,374 [INFO] app: Before Request
+2022-05-06 15:59:21,402 [INFO] app: Before Request
+2022-05-06 15:59:21,505 [INFO] app: Before Request
+2022-05-06 15:59:21,603 [INFO] app: Before Request
+2022-05-06 15:59:21,694 [INFO] app: Before Request
+2022-05-06 15:59:21,786 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:21,788 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:21,792 [INFO] app: Before Request
+2022-05-06 15:59:22,030 [INFO] app: Before Request
+2022-05-06 15:59:22,122 [INFO] app: Before Request
+2022-05-06 15:59:22,215 [INFO] app: Before Request
+2022-05-06 15:59:22,347 [INFO] app: Before Request
+2022-05-06 15:59:22,440 [INFO] app: Before Request
+2022-05-06 15:59:22,533 [INFO] app: Before Request
+2022-05-06 15:59:22,625 [INFO] app: Before Request
+2022-05-06 15:59:22,716 [INFO] app: Before Request
+2022-05-06 15:59:22,808 [INFO] app: Before Request
+2022-05-06 15:59:22,901 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:22,902 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:22,908 [INFO] app: Before Request
+2022-05-06 15:59:47,339 [INFO] app: Before Request
+2022-05-06 15:59:47,435 [INFO] app: Before Request
+2022-05-06 15:59:47,437 [INFO] app: Before Request
+2022-05-06 15:59:47,512 [INFO] app: Before Request
+2022-05-06 15:59:47,538 [INFO] app: Before Request
+2022-05-06 15:59:47,640 [INFO] app: Before Request
+2022-05-06 15:59:47,735 [INFO] app: Before Request
+2022-05-06 15:59:47,825 [INFO] app: Before Request
+2022-05-06 15:59:47,916 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:47,917 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:47,922 [INFO] app: Before Request
+2022-05-06 15:59:48,158 [INFO] app: Before Request
+2022-05-06 15:59:48,249 [INFO] app: Before Request
+2022-05-06 15:59:48,341 [INFO] app: Before Request
+2022-05-06 15:59:48,471 [INFO] app: Before Request
+2022-05-06 15:59:48,562 [INFO] app: Before Request
+2022-05-06 15:59:48,654 [INFO] app: Before Request
+2022-05-06 15:59:48,745 [INFO] app: Before Request
+2022-05-06 15:59:48,835 [INFO] app: Before Request
+2022-05-06 15:59:48,926 [INFO] app: Before Request
+2022-05-06 15:59:49,017 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:49,018 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 15:59:49,023 [INFO] app: Before Request
+2022-05-06 16:00:10,092 [INFO] app: Before Request
+2022-05-06 16:00:10,188 [INFO] app: Before Request
+2022-05-06 16:00:10,190 [INFO] app: Before Request
+2022-05-06 16:00:10,264 [INFO] app: Before Request
+2022-05-06 16:00:10,290 [INFO] app: Before Request
+2022-05-06 16:00:10,390 [INFO] app: Before Request
+2022-05-06 16:00:10,482 [INFO] app: Before Request
+2022-05-06 16:00:10,572 [INFO] app: Before Request
+2022-05-06 16:00:10,664 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:10,665 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:10,669 [INFO] app: Before Request
+2022-05-06 16:00:10,904 [INFO] app: Before Request
+2022-05-06 16:00:10,995 [INFO] app: Before Request
+2022-05-06 16:00:11,087 [INFO] app: Before Request
+2022-05-06 16:00:11,225 [INFO] app: Before Request
+2022-05-06 16:00:11,321 [INFO] app: Before Request
+2022-05-06 16:00:11,414 [INFO] app: Before Request
+2022-05-06 16:00:11,507 [INFO] app: Before Request
+2022-05-06 16:00:11,597 [INFO] app: Before Request
+2022-05-06 16:00:11,688 [INFO] app: Before Request
+2022-05-06 16:00:11,781 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:11,782 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:11,787 [INFO] app: Before Request
+2022-05-06 16:00:29,243 [INFO] app: Before Request
+2022-05-06 16:00:29,340 [INFO] app: Before Request
+2022-05-06 16:00:29,342 [INFO] app: Before Request
+2022-05-06 16:00:29,419 [INFO] app: Before Request
+2022-05-06 16:00:29,445 [INFO] app: Before Request
+2022-05-06 16:00:29,549 [INFO] app: Before Request
+2022-05-06 16:00:29,646 [INFO] app: Before Request
+2022-05-06 16:00:29,743 [INFO] app: Before Request
+2022-05-06 16:00:29,843 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:29,844 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:29,849 [INFO] app: Before Request
+2022-05-06 16:00:30,099 [INFO] app: Before Request
+2022-05-06 16:00:30,193 [INFO] app: Before Request
+2022-05-06 16:00:30,286 [INFO] app: Before Request
+2022-05-06 16:00:30,415 [INFO] app: Before Request
+2022-05-06 16:00:30,510 [INFO] app: Before Request
+2022-05-06 16:00:30,603 [INFO] app: Before Request
+2022-05-06 16:00:30,695 [INFO] app: Before Request
+2022-05-06 16:00:30,793 [INFO] app: Before Request
+2022-05-06 16:00:30,889 [INFO] app: Before Request
+2022-05-06 16:00:30,981 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:30,982 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:00:30,987 [INFO] app: Before Request
+2022-05-06 16:01:42,013 [INFO] app: Before Request
+2022-05-06 16:01:42,112 [INFO] app: Before Request
+2022-05-06 16:01:42,113 [INFO] app: Before Request
+2022-05-06 16:01:42,188 [INFO] app: Before Request
+2022-05-06 16:01:42,213 [INFO] app: Before Request
+2022-05-06 16:01:42,313 [INFO] app: Before Request
+2022-05-06 16:01:42,409 [INFO] app: Before Request
+2022-05-06 16:01:42,506 [INFO] app: Before Request
+2022-05-06 16:01:42,602 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:42,603 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:42,609 [INFO] app: Before Request
+2022-05-06 16:01:42,856 [INFO] app: Before Request
+2022-05-06 16:01:42,950 [INFO] app: Before Request
+2022-05-06 16:01:43,043 [INFO] app: Before Request
+2022-05-06 16:01:43,170 [INFO] app: Before Request
+2022-05-06 16:01:43,261 [INFO] app: Before Request
+2022-05-06 16:01:43,353 [INFO] app: Before Request
+2022-05-06 16:01:43,445 [INFO] app: Before Request
+2022-05-06 16:01:43,537 [INFO] app: Before Request
+2022-05-06 16:01:43,627 [INFO] app: Before Request
+2022-05-06 16:01:43,722 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,723 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,729 [INFO] app: Before Request
+2022-05-06 16:01:43,832 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,862 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,863 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,864 [INFO] app: Before Request
+2022-05-06 16:01:43,890 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,891 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,920 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,921 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,951 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,952 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,980 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:43,981 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:44,009 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:44,010 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:44,038 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:01:44,039 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:14,410 [INFO] app: Before Request
+2022-05-06 16:02:14,506 [INFO] app: Before Request
+2022-05-06 16:02:14,508 [INFO] app: Before Request
+2022-05-06 16:02:14,583 [INFO] app: Before Request
+2022-05-06 16:02:14,609 [INFO] app: Before Request
+2022-05-06 16:02:14,712 [INFO] app: Before Request
+2022-05-06 16:02:14,807 [INFO] app: Before Request
+2022-05-06 16:02:14,899 [INFO] app: Before Request
+2022-05-06 16:02:14,994 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:14,995 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:15,000 [INFO] app: Before Request
+2022-05-06 16:02:15,161 [INFO] app: Before Request
+2022-05-06 16:02:15,258 [INFO] app: Before Request
+2022-05-06 16:02:15,354 [INFO] app: Before Request
+2022-05-06 16:02:15,482 [INFO] app: Before Request
+2022-05-06 16:02:15,574 [INFO] app: Before Request
+2022-05-06 16:02:15,668 [INFO] app: Before Request
+2022-05-06 16:02:15,759 [INFO] app: Before Request
+2022-05-06 16:02:15,850 [INFO] app: Before Request
+2022-05-06 16:02:15,942 [INFO] app: Before Request
+2022-05-06 16:02:16,035 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,036 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,041 [INFO] app: Before Request
+2022-05-06 16:02:16,136 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,245 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,247 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,248 [INFO] app: Before Request
+2022-05-06 16:02:16,271 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,272 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,299 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,300 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,332 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,333 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,364 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,365 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,396 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,397 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,425 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:02:16,426 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:40,028 [INFO] app: Before Request
+2022-05-06 16:04:40,127 [INFO] app: Before Request
+2022-05-06 16:04:40,129 [INFO] app: Before Request
+2022-05-06 16:04:40,212 [INFO] app: Before Request
+2022-05-06 16:04:40,238 [INFO] app: Before Request
+2022-05-06 16:04:40,344 [INFO] app: Before Request
+2022-05-06 16:04:40,440 [INFO] app: Before Request
+2022-05-06 16:04:40,532 [INFO] app: Before Request
+2022-05-06 16:04:40,627 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:40,629 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:40,634 [INFO] app: Before Request
+2022-05-06 16:04:40,794 [INFO] app: Before Request
+2022-05-06 16:04:40,889 [INFO] app: Before Request
+2022-05-06 16:04:40,983 [INFO] app: Before Request
+2022-05-06 16:04:41,112 [INFO] app: Before Request
+2022-05-06 16:04:41,208 [INFO] app: Before Request
+2022-05-06 16:04:41,302 [INFO] app: Before Request
+2022-05-06 16:04:41,401 [INFO] app: Before Request
+2022-05-06 16:04:41,497 [INFO] app: Before Request
+2022-05-06 16:04:41,590 [INFO] app: Before Request
+2022-05-06 16:04:41,685 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,686 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,691 [INFO] app: Before Request
+2022-05-06 16:04:41,787 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,902 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,904 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,904 [INFO] app: Before Request
+2022-05-06 16:04:41,929 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,930 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,957 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,959 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,987 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:41,988 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,017 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,018 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,048 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,050 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,078 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:42,079 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:54,943 [INFO] app: Before Request
+2022-05-06 16:04:55,038 [INFO] app: Before Request
+2022-05-06 16:04:55,040 [INFO] app: Before Request
+2022-05-06 16:04:55,114 [INFO] app: Before Request
+2022-05-06 16:04:55,141 [INFO] app: Before Request
+2022-05-06 16:04:55,244 [INFO] app: Before Request
+2022-05-06 16:04:55,340 [INFO] app: Before Request
+2022-05-06 16:04:55,435 [INFO] app: Before Request
+2022-05-06 16:04:55,532 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:55,533 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:55,538 [INFO] app: Before Request
+2022-05-06 16:04:55,701 [INFO] app: Before Request
+2022-05-06 16:04:55,795 [INFO] app: Before Request
+2022-05-06 16:04:55,892 [INFO] app: Before Request
+2022-05-06 16:04:56,022 [INFO] app: Before Request
+2022-05-06 16:04:56,114 [INFO] app: Before Request
+2022-05-06 16:04:56,209 [INFO] app: Before Request
+2022-05-06 16:04:56,302 [INFO] app: Before Request
+2022-05-06 16:04:56,397 [INFO] app: Before Request
+2022-05-06 16:04:56,491 [INFO] app: Before Request
+2022-05-06 16:04:56,584 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:56,585 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-06 16:04:56,590 [INFO] app: Before Request
