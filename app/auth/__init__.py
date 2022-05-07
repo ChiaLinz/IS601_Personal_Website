@@ -74,7 +74,7 @@ def logout():
     user.authenticated = False
     db.session.add(user)
     db.session.commit()
-    log = logging.getLogger("TheLog")
+    log = logging.getLogger("myApp")
     log.info(user.email + "logged out")
     logout_user()
     return redirect(url_for('auth.login'))
