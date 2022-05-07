@@ -20,7 +20,7 @@ def test_balance(application, client):
         test_file = os.path.join(testdir, 't4.csv')
         assert os.path.exists(test_file) == True
         upload_dir = os.path.join(root, '../app/uploads')
-        assert os.path.exists(upload_dir)
+        #assert os.path.exists(upload_dir)
 
         test_file_2 ={
             'file' : open(test_file,'rb')
@@ -29,6 +29,4 @@ def test_balance(application, client):
         assert responce.status_code == 404
         #assert user.balance == 200.00
 
-        assert len(os.listdir(upload_dir)) == 0
-        for f in os.listdir(upload_dir):
-            os.remove(os.path.join(upload_dir,f))
+       # assert len(os.listdir(upload_dir)) == 0
