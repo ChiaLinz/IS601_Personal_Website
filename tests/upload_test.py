@@ -7,10 +7,10 @@ from app.db.models import User, Transaction
 def test_upload_file(application, client):
 
     with application.app_context():
-        user = {'email': '123@gmail.com','password': '123456'}
+        user = {'email': '1234@gmail.com','password': '123456'}
         client.post("/register", data=user)
 
-        user_2 ={'email': '123@gmail.com','password': '123456'}
+        user_2 ={'email': '1234@gmail.com','password': '123456'}
 
         client.post("/login",data = user_2)
         root = os.path.dirname(os.path.abspath(__file__))
