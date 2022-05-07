@@ -28,5 +28,3 @@ def test_upload_file(application, client):
         responce = client.post('/app/uploads', data = test_file_2)
         assert responce.status_code == 404
         #assert len(os.listdir(upload_dir)) == 1
-        for f in os.listdir(upload_dir):
-            os.remove(os.path.join(upload_dir,f))

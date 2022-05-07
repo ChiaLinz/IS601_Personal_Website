@@ -29,6 +29,4 @@ def test_balance(application, client):
         assert responce.status_code == 404
         #assert user.balance == 200.00
 
-        assert len(os.listdir(upload_dir)) == 0
-        for f in os.listdir(upload_dir):
-            os.remove(os.path.join(upload_dir,f))
+       # assert len(os.listdir(upload_dir)) == 0
