@@ -73,3 +73,4 @@ class transaction_user(db.Model):
     transaction_id = db.Column(db.Integer, db.ForeignKey('transaction.id'))
     user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
     transaction = relationship(Transaction, backref=backref("transaction_user", cascade="all, delete-orphan"))
+
