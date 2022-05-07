@@ -7,7 +7,7 @@ from app.db.models import User, Transaction
 def test_balance(application, client):
 
     with application.app_context():
-        user = {'email': '123@gmail.com','password': '123456'}
+        user = {'email': '123@gmail.com','password': '123456','balance':'0'}
         client.post("/register", data=user)
 
         user_2 ={'email': '123@gmail.com','password': '123456'}
