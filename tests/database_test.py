@@ -16,8 +16,8 @@ def test_upload_transaction(application):
     with application.app_context():
         assert db.session.query(User).count() == 0
         assert db.session.query(Transaction).count() == 0
-        user = User(email='123@gmail.com', password='123456',balance='0')
+        user = User(email='123@gmail.com', password='123456',balance='100')
         db.session.add(user)
-        user.transaction = [Transaction(100,'DEBIT')]
+        user.transaction = [Transaction(100,'CREDIT')]
         assert db.session.query(Transaction).count() == 0
 

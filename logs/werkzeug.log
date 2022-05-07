@@ -875,3 +875,10 @@
 2022-05-06 15:34:05,011 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:34:05] "GET /transactions HTTP/1.1" 200 -
 2022-05-06 15:34:40,038 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:34:40] "GET /transactions/upload HTTP/1.1" 200 -
 2022-05-06 15:36:09,014 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/upload_test.py', reloading
+2022-05-06 15:58:38,606 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:38] "GET /dashboard HTTP/1.1" 200 -
+2022-05-06 15:58:39,141 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:39] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:58:39,605 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:39] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:58:40,143 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:40] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-06 15:58:44,911 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:44] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-06 15:58:44,927 [INFO] werkzeug: 172.31.0.1 - - [06/May/2022 15:58:44] "GET /transactions HTTP/1.1" 200 -
+2022-05-06 15:59:20,696 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/balance_test.py', reloading
