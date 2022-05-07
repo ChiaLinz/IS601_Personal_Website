@@ -16,7 +16,7 @@ from flask import current_app
 @auth.route('/login', methods=['POST', 'GET'])
 def login():
     form = login_form()
-    log = logging.getLogger("TheLog")
+    log = logging.getLogger("myApp")
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
     if form.validate_on_submit():

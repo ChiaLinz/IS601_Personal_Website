@@ -33,14 +33,6 @@ class User(UserMixin, db.Model):
     transactions = db.relationship("Transaction", secondary="transaction_user", backref="users")
     balance = db.Column(db.Float, default=0.0, unique=False, nullable=False)
 
-class transaction_user(db.Model):
-    __tablename__ = 'transaction_user'
-    id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    transaction_id = db.Column(db.Integer, db.ForeignKey('transaction.id'))
-    user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
-    transaction = relationship(Transaction, backref=backref("transaction_user", cascade="all, delete-orphan"))
-
     # `roles` and `groups` are reserved words that *must* be defined
     # on the `User` model to use group- or role-based authorization.
 
@@ -72,3 +64,12 @@ class transaction_user(db.Model):
 
     def get_balance(self):
         return self.balance
+
+
+class transaction_user(db.Model):
+    __tablename__ = 'transaction_user'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    transaction_id = db.Column(db.Integer, db.ForeignKey('transaction.id'))
+    user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
+    transaction = relationship(Transaction, backref=backref("transaction_user", cascade="all, delete-orphan"))

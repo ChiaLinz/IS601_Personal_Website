@@ -2486,3 +2486,71 @@
 2022-05-07 16:47:53,029 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-07 16:47:53,030 [INFO] flask_wtf.csrf: The CSRF token is missing.
 2022-05-07 16:47:53,034 [INFO] app: Before Request
+2022-05-07 17:22:58,722 [INFO] app: Before Request
+2022-05-07 17:23:01,574 [INFO] app: Before Request
+2022-05-07 17:23:01,586 [INFO] myApp: 123@gmail.comlogged out
+2022-05-07 17:23:01,591 [INFO] app: Before Request
+2022-05-07 17:23:03,009 [INFO] app: Before Request
+2022-05-07 17:23:34,300 [INFO] app: Before Request
+2022-05-07 17:23:34,380 [INFO] app: Before Request
+2022-05-07 17:23:40,338 [INFO] app: Before Request
+2022-05-07 17:24:33,065 [INFO] app: Before Request
+2022-05-07 17:24:36,195 [INFO] app: Before Request
+2022-05-07 17:25:36,469 [INFO] app: Before Request
+2022-05-07 17:25:40,738 [INFO] app: Before Request
+2022-05-07 17:25:44,027 [INFO] app: Before Request
+2022-05-07 17:25:52,399 [INFO] app: Before Request
+2022-05-07 17:27:44,057 [INFO] app: Before Request
+2022-05-07 17:27:45,845 [INFO] app: Before Request
+2022-05-07 17:27:52,253 [INFO] app: Before Request
+2022-05-07 17:27:59,723 [INFO] app: Before Request
+2022-05-07 17:27:59,794 [INFO] app: Before Request
+2022-05-07 17:28:06,296 [INFO] app: Before Request
+2022-05-07 17:31:58,332 [INFO] app: Before Request
+2022-05-07 17:31:58,429 [INFO] app: Before Request
+2022-05-07 17:31:58,431 [INFO] app: Before Request
+2022-05-07 17:31:58,510 [INFO] app: Before Request
+2022-05-07 17:31:58,535 [INFO] app: Before Request
+2022-05-07 17:31:58,635 [INFO] app: Before Request
+2022-05-07 17:31:58,730 [INFO] app: Before Request
+2022-05-07 17:31:58,820 [INFO] app: Before Request
+2022-05-07 17:31:58,912 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:58,913 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:58,917 [INFO] app: Before Request
+2022-05-07 17:31:59,071 [INFO] app: Before Request
+2022-05-07 17:31:59,163 [INFO] app: Before Request
+2022-05-07 17:31:59,256 [INFO] app: Before Request
+2022-05-07 17:31:59,383 [INFO] app: Before Request
+2022-05-07 17:31:59,478 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:59,479 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:59,485 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:59,503 [INFO] app: Before Request
+2022-05-07 17:31:59,599 [INFO] app: Before Request
+2022-05-07 17:31:59,692 [INFO] app: Before Request
+2022-05-07 17:31:59,784 [INFO] app: Before Request
+2022-05-07 17:31:59,878 [INFO] app: Before Request
+2022-05-07 17:31:59,970 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:59,972 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-05-07 17:31:59,976 [INFO] app: Before Request
+2022-05-07 18:35:39,445 [INFO] app: Before Request
+2022-05-07 18:35:46,353 [INFO] app: Before Request
+2022-05-07 18:47:43,446 [INFO] app: Before Request
+2022-05-07 18:47:46,820 [INFO] app: Before Request
+2022-05-07 18:47:55,684 [INFO] app: Before Request
+2022-05-07 18:47:55,788 [INFO] app: Before Request
+2022-05-07 18:48:02,732 [INFO] app: Before Request
+2022-05-07 18:49:10,799 [INFO] app: Before Request
+2022-05-07 18:49:10,809 [INFO] app: Before Request
+2022-05-07 18:49:17,821 [INFO] app: Before Request
+2022-05-07 18:49:19,748 [INFO] app: Before Request
+2022-05-07 18:57:30,987 [INFO] app: Before Request
+2022-05-07 18:57:40,003 [INFO] app: Before Request
+2022-05-07 18:57:40,084 [INFO] myApp: 12@gmail.comlogged in
+2022-05-07 18:57:40,090 [INFO] app: Before Request
+2022-05-07 18:57:41,549 [INFO] app: Before Request
+2022-05-07 18:57:42,336 [INFO] app: Before Request
+2022-05-07 18:57:42,341 [INFO] app: Info level log
+2022-05-07 18:57:42,342 [WARNING] app: Warning level log
+2022-05-07 18:57:42,344 [INFO] app: Browse page loading
+2022-05-07 18:57:42,393 [INFO] app: Before Request
+2022-05-07 18:57:44,112 [INFO] app: Before Request
