@@ -8,7 +8,7 @@ class Config(object):
     SECRET_KEY = 'This is an INSECURE secret!! DO NOT use this in production!!'
     SESSION_COOKIE_SECURE = True
     BOOTSTRAP_BOOTSWATCH_THEME = 'Simplex'
-    # db_dir = "database/db.sqlite"
+    db_dir = "database/db.sqlite"
     DB_DIR = os.getenv('DB_DIR', 'database')
     LOG_DIR = os.path.join(BASE_DIR, '../logs')
     SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(BASE_DIR, '..', DB_DIR, "db.sqlite")
