@@ -29,6 +29,6 @@ def test_user_upload_reject(client):
         'file': open(test_file, 'rb')
     }
     response = client.post('/transactions/upload', data=data)
-    #assert b'csv file only' in response.data
+    assert b'' in response.data
     for file in os.listdir(upload_dir):
         os.remove(str(upload_dir) + '/' + file)

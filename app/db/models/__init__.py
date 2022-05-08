@@ -74,3 +74,5 @@ class transaction_user(db.Model):
     user = relationship(User, backref=backref("transaction_user", cascade="all, delete-orphan"))
     transaction = relationship(Transaction, backref=backref("transaction_user", cascade="all, delete-orphan"))
 
+    def get_balance(self):
+        return self.balance
