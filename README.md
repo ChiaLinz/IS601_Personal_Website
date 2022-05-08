@@ -10,12 +10,11 @@
 * [Developmental Deployment](https://chia-lin-601-project4-dev.herokuapp.com/)
 
 ----------------
-# [Demo](https://github.com/ChiaLinz/is601-project4/blob/master/Dema/Demo.md)
+# [Demo](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/Demo.md)
 
 -----------
 
 ## [Requirement of the project](https://github.com/ChiaLinz/is601-project4/blob/master/Project_Requirement.md)
 
------------
 
-### For testing the upload & transaction function, please use the same format as the [test file]()
+#### For testing the upload & transaction function, please use the same format as the [Test file 1](https://github.com/ChiaLinz/is601-project4/blob/master/test_1.csv) & [Test file 2](https://github.com/ChiaLinz/is601-project4/blob/master/test_2.csv)

@@ -1,5 +1,7 @@
 ## Register & Logining
 ![Register](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/register.PNG)
+![Logged_in](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/login.PNG)
+
 ## Starting balance
 ![Starting_blance](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/start_balance.PNG)
 ## Upload the CSV (Transaction)
@@ -14,9 +16,9 @@
 
 ## [Database to user record for each transaction](https://github.com/ChiaLinz/is601-project4/blob/master/database/db.sqlite)
 
-## [Calculation & Test for Balance](https://github.com/ChiaLinz/is601-project4/blob/master/tests/balance_test.py)
+## [Calculation](https://github.com/ChiaLinz/is601-project4/blob/master/app/transactions/__init__.py) & [Test for Balance](https://github.com/ChiaLinz/is601-project4/blob/master/tests/balance_test.py)
 
-## Test for [login & Registration](https://github.com/ChiaLinz/is601-project4/blob/master/tests/auth_test.py) & [logged-in dashboard](https://github.com/ChiaLinz/is601-project4/blob/master/tests/auth_test.py) & [denying access dashboard](https://github.com/ChiaLinz/is601-project4/blob/master/tests/balance_test.py) & [denying access upload CSV](https://github.com/ChiaLinz/is601-project4/blob/master/tests/reject_test.py)
+## Test for [login & Registration](https://github.com/ChiaLinz/is601-project4/blob/master/tests/login_test.py) & [logged-in dashboard](https://github.com/ChiaLinz/is601-project4/blob/master/tests/auth_test.py) & [denying access dashboard](https://github.com/ChiaLinz/is601-project4/blob/master/tests/balance_test.py) & [denying access upload CSV](https://github.com/ChiaLinz/is601-project4/blob/master/tests/reject_test.py)
 
 ## [Workflow](https://github.com/ChiaLinz/is601-project4/blob/master/.github/workflows)
 
@@ -27,4 +29,5 @@
 
 ## [Commits](https://github.com/ChiaLinz/is601-project4/commits/master)
 
-## [Badge](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/badge.PNG)
+## Badge
+![Badge](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/badge.PNG)
