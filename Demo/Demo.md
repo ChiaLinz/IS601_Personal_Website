@@ -27,4 +27,5 @@
 
 ## [Commits](https://github.com/ChiaLinz/is601-project4/commits/master)
 
-## [Badge](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/badge.PNG)
+## Badge
+![Badge](https://github.com/ChiaLinz/is601-project4/blob/master/Demo/badge.PNG)
