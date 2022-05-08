@@ -963,3 +963,22 @@
 2022-05-07 18:57:42,356 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 18:57:42] "GET /users HTTP/1.1" 200 -
 2022-05-07 18:57:42,395 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 18:57:42] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
 2022-05-07 18:57:44,124 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 18:57:44] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 23:32:25,693 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:25] "GET / HTTP/1.1" 200 -
+2022-05-07 23:32:25,931 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-07 23:32:27,622 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:27] "GET /transactions HTTP/1.1" 200 -
+2022-05-07 23:32:28,274 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:28] "GET /transactions HTTP/1.1" 200 -
+2022-05-07 23:32:28,681 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:28] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-07 23:32:29,404 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 23:32:47,628 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:47] "GET /welcome HTTP/1.1" 200 -
+2022-05-07 23:32:49,358 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:49] "GET /users HTTP/1.1" 200 -
+2022-05-07 23:32:49,383 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:32:49] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-05-07 23:34:25,825 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:34:25] "GET /transactions HTTP/1.1" 200 -
+2022-05-07 23:34:26,540 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:34:26] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 23:34:49,218 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:34:49] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-07 23:34:58,780 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:34:58] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-07 23:34:58,798 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:34:58] "GET /transactions HTTP/1.1" 200 -
+2022-05-07 23:35:22,395 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:35:22] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 23:35:25,341 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:35:25] "GET /transactions HTTP/1.1" 200 -
+2022-05-07 23:35:30,568 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:35:30] "GET /dashboard HTTP/1.1" 200 -
+2022-05-07 23:35:42,489 [INFO] werkzeug: 172.31.0.1 - - [07/May/2022 23:35:42] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-07 23:47:42,750 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/upload_test.py', reloading
